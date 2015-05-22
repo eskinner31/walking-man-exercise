@@ -4,7 +4,7 @@
   stickFigure.style.left ="0px";;
   var logicValue = true;
 
-//document.body.style.width = "1000px";
+
   var move = function(){
     if (logicValue == true){
       stickFigure.style.left = parseInt(stickFigure.style.left) + 10 + "px";
